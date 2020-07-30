@@ -7,25 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7940AAF424D2DE7700691EC2 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7940AAF324D2DE7700691EC2 /* Player.swift */; };
 		7948F2F124D2C06B0002E5E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7948F2F024D2C06B0002E5E6 /* AppDelegate.swift */; };
 		7948F2F324D2C06B0002E5E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7948F2F224D2C06B0002E5E6 /* SceneDelegate.swift */; };
-		7948F2F524D2C06B0002E5E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7948F2F424D2C06B0002E5E6 /* ViewController.swift */; };
+		7948F2F524D2C06B0002E5E6 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7948F2F424D2C06B0002E5E6 /* WelcomeVC.swift */; };
 		7948F2F824D2C06B0002E5E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7948F2F624D2C06B0002E5E6 /* Main.storyboard */; };
 		7948F2FA24D2C06D0002E5E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7948F2F924D2C06D0002E5E6 /* Assets.xcassets */; };
 		7948F2FD24D2C06D0002E5E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7948F2FB24D2C06D0002E5E6 /* LaunchScreen.storyboard */; };
 		7948F30524D2C6A50002E5E6 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7948F30424D2C6A50002E5E6 /* BorderButton.swift */; };
+		7948F30A24D2D7FC0002E5E6 /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7948F30924D2D7FC0002E5E6 /* LeagueVC.swift */; };
+		7948F30C24D2D80E0002E5E6 /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7948F30B24D2D80E0002E5E6 /* SkillVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7940AAF324D2DE7700691EC2 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		7948F2ED24D2C06B0002E5E6 /* Swoosh_0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swoosh_0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7948F2F024D2C06B0002E5E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7948F2F224D2C06B0002E5E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7948F2F424D2C06B0002E5E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7948F2F424D2C06B0002E5E6 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		7948F2F724D2C06B0002E5E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7948F2F924D2C06D0002E5E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7948F2FC24D2C06D0002E5E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7948F2FE24D2C06D0002E5E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7948F30424D2C6A50002E5E6 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		7948F30924D2D7FC0002E5E6 /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
+		7948F30B24D2D80E0002E5E6 /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +64,43 @@
 		7948F2EF24D2C06B0002E5E6 /* Swoosh_0 */ = {
 			isa = PBXGroup;
 			children = (
+				7948F30724D2D7390002E5E6 /* Controller */,
+				7948F30824D2D7420002E5E6 /* View */,
+				7948F30624D2D72C0002E5E6 /* Model */,
 				7948F2F024D2C06B0002E5E6 /* AppDelegate.swift */,
 				7948F2F224D2C06B0002E5E6 /* SceneDelegate.swift */,
-				7948F2F424D2C06B0002E5E6 /* ViewController.swift */,
-				7948F2F624D2C06B0002E5E6 /* Main.storyboard */,
 				7948F2F924D2C06D0002E5E6 /* Assets.xcassets */,
 				7948F2FB24D2C06D0002E5E6 /* LaunchScreen.storyboard */,
 				7948F2FE24D2C06D0002E5E6 /* Info.plist */,
 				7948F30424D2C6A50002E5E6 /* BorderButton.swift */,
 			);
 			path = Swoosh_0;
+			sourceTree = "<group>";
+		};
+		7948F30624D2D72C0002E5E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7940AAF324D2DE7700691EC2 /* Player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7948F30724D2D7390002E5E6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7948F2F424D2C06B0002E5E6 /* WelcomeVC.swift */,
+				7948F30924D2D7FC0002E5E6 /* LeagueVC.swift */,
+				7948F30B24D2D80E0002E5E6 /* SkillVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7948F30824D2D7420002E5E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7948F2F624D2C06B0002E5E6 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7948F2F524D2C06B0002E5E6 /* ViewController.swift in Sources */,
+				7948F30A24D2D7FC0002E5E6 /* LeagueVC.swift in Sources */,
+				7948F2F524D2C06B0002E5E6 /* WelcomeVC.swift in Sources */,
+				7940AAF424D2DE7700691EC2 /* Player.swift in Sources */,
 				7948F2F124D2C06B0002E5E6 /* AppDelegate.swift in Sources */,
 				7948F2F324D2C06B0002E5E6 /* SceneDelegate.swift in Sources */,
+				7948F30C24D2D80E0002E5E6 /* SkillVC.swift in Sources */,
 				7948F30524D2C6A50002E5E6 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
